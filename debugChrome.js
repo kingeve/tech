@@ -22,7 +22,7 @@ function volume_sphere()
   var volume;
   var radius = getRadius();
   var sum;
-  volume = Math.pow(radius,3) * (4/3) * Math.PI;
+  volume = Math.pow(radius,3) * (4/3) * Math.PI;//v = ⁴⁄₃πr³
   volume = volume.toFixed(4);
   document.getElementById('volume').value = volume;
   sum = volume + radius;
